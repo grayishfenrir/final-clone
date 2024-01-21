@@ -1,0 +1,105 @@
+.profile {
+    padding: var(--basic-side-padding);
+    display: flex;
+    align-items: center;
+}
+
+.profile--bg {
+    padding: 10px 10px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+}
+
+.profile:hover {
+    background-color: rgb(201, 215, 255);
+    border-radius: 10px;
+}
+
+.chats-main__secret-chats .profile:hover {
+    opacity: 0.5;
+}
+
+.secret-chats-main__chats .profile:hover {
+    opacity: 0.5;
+}
+
+.profile__picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.profile__picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile__picture--x {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.profile__picture--xs {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.profile__picture--round {
+    border-radius: 50%;
+}
+
+.profile__picture--x img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile__picture--xs img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.profile__text {
+    width: 60%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.profile__title {
+    font-size: 25px;
+}
+
+.profile__title-x {
+    font-size: 20px;
+}
+
+.profile__subtitle {
+    margin-top: 10px;
+    font-size: 15x;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.profile__icons{
+    width: 33%;
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

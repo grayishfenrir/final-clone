@@ -1,0 +1,34 @@
+.friends-main__explain {
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(55, 182, 159, 0.7);
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+.friends-main__explain i {
+    margin: 0 7px;
+    font-size: 16px;
+} 
+
+.friends-main__explain i:last-child {
+    font-size: 10px;
+} 
+
+.friends-main__friends {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    margin-top: 25px;
+    padding-top: 15px;
+}
+
+.friends-main__submenu {
+    padding: var(--basic-side-padding);
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-main__friends section {
+    margin-top: 25px;
+}

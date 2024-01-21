@@ -1,0 +1,28 @@
+.chat-main__info {
+    padding: var(--basic-side-padding);
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-main__info > div {
+    width: 33%;
+}
+
+.chat-main__name {
+    width: 33%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.chat-main .basic-icon-list {
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chat-main .basic-icon-list .basic-icon-list__icon {
+    margin-left: 25px;
+}
+

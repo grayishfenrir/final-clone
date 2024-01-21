@@ -1,0 +1,28 @@
+.chat-main__chat-right {
+    padding: var(--basic-side-padding);
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.chat-main__text-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-main__chat-content-right {
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 15px 0 15px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: 800;
+}
+
+.chat-main__time-right {
+    font-size: 13px;
+    margin-top: 40px;
+    padding-right: 5px;
+    color: rgba(0, 0, 0, 0.5);
+}

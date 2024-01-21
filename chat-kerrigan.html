@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Secret Chat</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link href='https://fonts.googleapis.com/css?family=Droid Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg">
+        <div class="bg-img"></div>
+    </div>
+    <header class="top-status-bar">
+        <div class="top-status-bar__time-icons">
+            <span class="top-status-bar__time">11:21</span>
+            <div class="top-status-bar__icons">
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-google"></i>
+            </div>
+        </div>
+        <div class="top-status-bar__lens">
+            <div class="top-status-bar__out-lens">
+                <div class="top-status-bar__in-lens"></div>
+            </div>
+        </div>
+        <div class="top-status-bar__battery-wifi-icons">
+            <div class="top-status-bar__wifi"><i class="fas fa-wifi"></i></div>
+            <div class="top-status-bar__lte">
+                <i class="far fa-comment-alt">
+                    <span class="top-status-bar__lte-status">HD</span>
+                </i>
+            </div>
+            <div class="top-status-bar__signal"><i class="fas fa-signal"></i></div>
+            <div class="top-status-bar__battery-status">23%</div>
+            <div class="top-status-bar__battery"><i class="fas fa-battery-quarter"></i></div>
+        </div>
+    </header>
+    <main class="chat-main">
+        <header class="chat-main__info">
+            <div>
+                <a class="basic-icon-list__icon" href="chats.html"><i class="fas fa-chevron-left"></i></a>
+            </div>
+            <span class="chat-main__name">Kerrigan</span>
+            <ul class="basic-icon-list">
+                <li><a class="basic-icon-list__icon" href="preparing.html"><i class="fas fa-search"></i></a></li>
+                <li><a class="basic-icon-list__icon" href="preparing.html"><i class="fas fa-bars"></i></a></li>
+            </ul>
+        </header>
+        <section class="chat-main__chats">
+            <section class="chat-main__chat-right">
+                <div class="chat-main__time-right">06:00</div>
+                <div class="chat-main__right">
+                    <span class="chat-main__chat-content-right">자기&nbsp;일어났어?</span>
+                </div>
+            </section>
+            <section class="chat-main__chat-left">
+                <div class="profile__picture--xs">
+                    <img src="images/kerrigan.png" />
+                </div>
+                <div class="chat-main__text">
+                    <span class="chat-main__chat-name">Kerrigan</span>
+                    <span class="chat-main__chat-content">레이너&nbsp;제라툴은&nbsp;잘&nbsp;속였어?</span>
+                </div>
+                <div class="chat-main__time">06:00</div>
+            </section>
+            <section class="chat-main__chat-right">
+                <div class="chat-main__time-right">06:01</div>
+                <div class="chat-main__right">
+                    <span class="chat-main__chat-content-right">응&nbsp;일반&nbsp;채팅으로&nbsp;했으니까&nbsp;확인해봐</span>
+                </div>
+            </section>
+            <section class="chat-main__chat-left">
+                <div class="profile__picture--xs">
+                    <img src="images/kerrigan.png" />
+                </div>
+                <div class="chat-main__text">
+                    <span class="chat-main__chat-name">Kerrigan</span>
+                    <span class="chat-main__chat-content">고마워&nbsp;<i class="far fa-kiss-wink-heart"></i></span>
+                </div>
+                <div class="chat-main__time">06:02</div>
+            </section>
+            <section class="chat-main__chat-left">
+                <div class="profile__picture--xs">
+                    <img src="images/kerrigan.png" />
+                </div>
+                <div class="chat-main__text">
+                    <span class="chat-main__chat-name">Kerrigan</span>
+                    <span class="chat-main__chat-content">내일&nbsp;프로토스를&nbsp;멸망시켜야겠군</span>
+                </div>
+                <div class="chat-main__time">06:02</div>
+            </section>
+        </section>
+    </main>
+    <nav class="chat-bottom">
+        <ul class="chat-bottom__list">
+            <li class="chat-bottom__item"><a href="preparing.html"><i class="far fa-plus-square"></i></a></li>
+            <li class="chat-bottom__item"><input type="text" placeholder="Write a message" /></li>
+            <div>
+                <a href="preparing.html"><i class="far fa-smile"></i></a>
+                <a href=""><i class="fas fa-arrow-circle-up"></i></a>
+            </div>
+        </ul>
+    </nav>
+    <div class="disable-screen">
+        <span>The monitor size is not suitable for using the app.</span>
+    </div>
+  </body>
+</html>

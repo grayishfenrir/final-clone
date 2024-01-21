@@ -1,0 +1,80 @@
+.top-status-bar {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-status-bar__time-icons {
+    width: 33%;
+    display: flex;
+}
+
+.top-status-bar__time {
+    margin-right: 2px;
+}
+
+.top-status-bar__icons i{
+    margin-left: 4px;
+}
+
+.top-status-bar__lens {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-status-bar__out-lens {    
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+}
+
+.top-status-bar__in-lens {    
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #0C2724;
+    position: absolute;
+    top: 3.5px;
+    left: 3.5px;
+}
+
+.top-status-bar__battery-wifi-icons {
+    width: 33%;
+}
+
+.top-status-bar__battery-wifi-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-status-bar__battery-wifi-icons > div {
+    margin-left: 4px;
+}
+
+.top-status-bar__lte {
+    position: relative;
+}
+
+.top-status-bar__lte-status {
+    font-size: 7px;
+    font-weight: bold;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.top-status-bar__battery-status {
+    position: relative;
+    left: 2px;
+}
+
+.top-status-bar__battery i {
+    transform: rotate( -90deg );
+}

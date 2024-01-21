@@ -1,0 +1,40 @@
+.more-main {
+    padding: var(--basic-side-padding);
+} 
+
+.more-main .profile__text {
+    margin-left: 10px;
+}
+
+.more-menu {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 40px;
+}
+
+.more-menu__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more-menu__item > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more-menu__item > a i {
+    font-size: 40px;
+}
+
+.more-menu__name {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.more-ad {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+}

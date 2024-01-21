@@ -1,0 +1,26 @@
+.menu-name {
+    padding: var(--basic-side-padding);
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-name__title {
+  width: 60%;
+  font-size: 35px;  
+}
+
+.basic-icon-list {
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.basic-icon-list__icon {
+    font-size: 25px;
+}
+
+.basic-icon-list__icon-x {
+    font-size: 20px;
+}

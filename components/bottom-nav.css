@@ -1,0 +1,24 @@
+.bottom-nav {    
+    border: 1px solid black;
+    background-color: none;
+    padding: 25px 40px;
+    width: 100%;
+    border: none;
+    position: absolute;
+    bottom: 0;
+}
+
+.bottom-nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-nav__item > a > .basic-lock {
+    width: 15px;
+    height: 25px;
+}
+
+.bottom-nav__item > a > .selected-lock {
+    background: url(../images/yellow-lock.svg) no-repeat center;
+}

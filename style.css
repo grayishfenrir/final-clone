@@ -1,0 +1,83 @@
+/* components */
+@import "components/top-status-bar.css";
+@import "components/bottom-nav.css";
+@import "components/menu-name.css";
+@import "components/profile.css";
+@import "components/chat-left.css";
+@import "components/chat-bottom.css";
+@import "components/chat-right.css";
+@import "components/ad.css";
+
+/* screens */
+@import "screens/login.css";
+@import "screens/preparing.css";
+@import "screens/friends.css";
+@import "screens/channel-char.css";
+@import "screens/chats.css";
+@import "screens/secret-chats.css";
+@import "screens/chat.css";
+@import "screens/chat-secret-auth.css";
+@import "screens/more.css";
+
+
+:root {
+    --basic-side-padding: 0 25px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Droid sans, sans-serif;
+    background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+}
+
+.bg {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-img {
+    width: 70%;
+    height: 70%;
+    opacity: 0.3;
+    position: absolute;
+    background: url(images/basic-lock.svg) no-repeat center;
+}
+
+.clear {
+    opacity: 1;
+}
+
+.disable-screen {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    width: 100vw;
+    background-color: #C4E5DE;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 550px) {
+    .disable-screen {
+        display: none;
+    }
+}
+
